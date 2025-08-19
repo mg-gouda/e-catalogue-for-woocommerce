@@ -1,0 +1,45 @@
+/* E-Catalogue For WooCommerce Admin Styles */
+/* Styles for the settings page and general admin enhancements */
+
+.form-table th {
+    width: 250px;
+}
+
+.form-table input[type="text"],
+.form-table input[type="number"],
+.form-table input[type="color"],
+.form-table select,
+.form-table textarea {
+    width: 100%;
+    max-width: 450px;
+}
+
+.form-table select[multiple] {
+    height: 150px;
+}
+
+/* Specific styling for the color picker */
+.form-table .wp-picker-container {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.form-table .description {
+    font-style: italic;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+}
+
+.ecfw-checkbox-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Image upload preview */
+.ecfw-image-preview {
+    max-width: 200px;
+    height: auto;
+    margin-top: 10px;
+    display: block;
+}
